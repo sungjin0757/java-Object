@@ -1,5 +1,5 @@
 import chapter1.Test2;
-import chapter1.Test1;
+import chapter2.Test1;
 import chapter6.RomanNumerals;
 import chapter6.Sum;
 
@@ -10,7 +10,6 @@ import java.util.EnumSet;
 import java.util.function.Supplier;
 
 public class Main {
-
     public static void main(String[] args) throws Throwable {
         //메소드 Time Check
         RomanNumerals romanNumerals = new RomanNumerals();

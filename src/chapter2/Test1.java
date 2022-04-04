@@ -69,4 +69,8 @@ public class Test1 {
         this.b= builder.b;
         this.c= builder.c;
     }
+
+    public static void Main(String[] args){
+        Test1 build = new Builder(1).b(2).c(3).build();
+    }
 }
